@@ -19,8 +19,8 @@
     + **Gán nhãn từ loại (POS tagging)**: Xác định loại từ (danh từ, động từ, tính từ, v.v.) cho mỗi từ trong văn bản, giúp hiểu ngữ pháp và chức năng của từ trong câu.
    
 # Feature Engineering 
-  1. ** Quá trình sử dụng kiến thức miền dữ liệu để tạo ra các đặc trưng ** giúp các thuật toán học máy hoạt động hiệu quả hơn.
-  2. ** Chuyển đổi các đặc điểm của văn bản thành định dạng số  ** mà các thuật toán học máy có thể hiểu và xử lý.
+  1. **Quá trình sử dụng kiến thức miền dữ liệu để tạo ra các đặc trưng** giúp các thuật toán học máy hoạt động hiệu quả hơn.
+  2. **Chuyển đổi các đặc điểm của văn bản thành định dạng số** mà các thuật toán học máy có thể hiểu và xử lý.
   3. Một số phương pháp để chuyển đổi dữ liệu văn bản thành định dạng số bao gồm:
        - ***Word Embeddings***: Đại diện từ vựng dưới dạng các vector số, thường sử dụng các kỹ thuật như Word2Vec hoặc GloVe để học mối quan hệ giữa các từ trong không gian vector.
        - ***CountVectorizer***: Phương pháp biến văn bản thành ma trận số lượng từ, đếm số lần xuất hiện của mỗi từ trong văn bản.
