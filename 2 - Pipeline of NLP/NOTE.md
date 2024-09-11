@@ -76,7 +76,7 @@
     <b> Tiền xử lí dữ liệu văn bản với NLTK </b>
   </summary>
 
-  [Hướng dẫn cách xử lý dữ liệu với NLTK](./Using%20NLTK.md)
+   - [Hướng dẫn cách xử lý dữ liệu với NLTK](./Using%20NLTK.md)
 
 </details>
 
