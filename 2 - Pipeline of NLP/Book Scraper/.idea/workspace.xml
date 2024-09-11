@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b5ef453-6707-4973-965c-d24e2d460055" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Book Scraper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myproject/spiders/bookscraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/Using scrapy to scarp book.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/myproject/spiders/bookscraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using scrapy to scarp book/myproject/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NLTK Hands On/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -46,20 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/PC/Desktop/DEV_Turtorial/Natural Process/NSTH-Natural.Language.Processing.Zero.Hero/NSTH-Natural.Language.Processing.Zero.Hero/2 - Pipeline of NLP/6 - PNLP-S02V02-bookscraper",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/DEV_Turtorial/Natural Process/NSTH-Natural.Language.Processing.Zero.Hero/NSTH-Natural.Language.Processing.Zero.Hero/2 - Pipeline of NLP/6 - PNLP-S02V02-bookscraper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +73,10 @@
       <option name="presentableId" value="Default" />
       <updated>1725966548283</updated>
       <workItem from="1725966549377" duration="345000" />
-      <workItem from="1725966908543" duration="499000" />
+      <workItem from="1725966908543" duration="3422000" />
+      <workItem from="1726035406508" duration="160000" />
+      <workItem from="1726035943033" duration="37000" />
+      <workItem from="1726037017468" duration="34000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,18 @@
 # Tiền sử lý văn bản với NLTK
 
   - <b> Đọc văn bản:</b>`text = f.read()`  
+  - <b> Tách câu thành các token: </b> `nltk.word_tokenize`
   - <b> Loại bỏ ký tự xuống dòng:</b> `text.replace("\n", " ")`
   - <b> Biến đổi về chữ thường: </b>`text.lower()`
+  - <b> Gán Part-Of-Speech (POS) tags (nhãn từ loại): </b> `nltk.pos_tag`
+      + sử dụng để gán Part-Of-Speech (POS) tags (nhãn từ loại) cho các từ trong một câu hoặc một đoạn văn bản. POS tags giúp xác định chức năng ngữ pháp của từng từ, chẳng hạn như danh từ, động từ, tính từ, trạng từ, v.v.
+      + Ví dụ về các POS tags:
+	  - NN: Danh từ chung (Noun)
+	  - VB: Động từ gốc (Verb)
+	  - JJ: Tính từ (Adjective)
+	  - RB: Trạng từ (Adverb)
+	  - PRP: Đại từ (Pronoun)
+	  - Và nhiều nhãn khác... 
   - <b> Tách các câu:</b>
       + Từ một đoạn văn bản gồm nhiều câu thì thông qua bước này ta thu được các câu thành phần. Để nhận biết một câu đơn giản nhất là khi gặp dấu "." kết thúc câu, chúng ta hoàn toàn có thể sử dụng hàm split() trong python và tách câu mỗi khi gặp dấu ".". Tuy nhiên, không phải lúc nào dấu "." cũng là kết thúc câu, ví dụ trong tiếng anh, từ "Mr. Smith" thì nếu ta dùng cách trên để bóc tách các câu thì sẽ sai. Để có thể tách các câu chính xác thì việc sử dụng các thư viện hỗ trợ là biện pháp đơn giản nhất cụ thể là sử dụng hàm `nltk.sent_tokenize`.
       +   EX:
