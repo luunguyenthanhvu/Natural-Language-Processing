@@ -48,7 +48,7 @@
 
 <details>
   <summary>
-  <b>  4.  Transformers </b>
+  <b>  5.  Transformers </b>
   </summary>
 
   - <b> Khái Niệm: </b>  Mô hình hiện đại như BERT và GPT có thể tạo ra các đại diện văn bản rất chính xác bằng cách sử dụng các lớp Attention để hiểu ngữ cảnh từ.
