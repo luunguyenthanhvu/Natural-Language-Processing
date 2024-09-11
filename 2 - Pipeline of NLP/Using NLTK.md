@@ -1,8 +1,4 @@
-
-<details>
-  <summary>
-    <b> Tiền sử lý văn bản với NLTK </b>
-  </summary>
+# Tiền sử lý văn bản với NLTK
 
   - <b> Đọc văn bản:</b>`text = f.read()`  
   - <b> Loại bỏ ký tự xuống dòng:</b> `text.replace("\n", " ")`
@@ -142,4 +138,4 @@
             print(url_pattern.sub(r'', url_example))
 
             ```
-</details>
+
