@@ -71,6 +71,15 @@
   Để chạy một spider và thu thập dữ liệu, sử dụng lệnh: `scrapy crawl <project_name>`
 </details>
 
+<details>
+  <summary>
+    <b> Tiền xử lí dữ liệu văn bản với NLTK </b>
+  </summary>
+
+  [Hướng dẫn cách xử lý dữ liệu với NLTK](./Using%20file.md)
+
+</details>
+
 
 
      
