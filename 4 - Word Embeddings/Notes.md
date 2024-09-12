@@ -14,7 +14,7 @@
   </summary>
 
   - Word Embedding được phân chủ yếu thành 2 loại:
-      + [Frequency-based Embedding](frequency_based_embedding.md)
+      + [Frequency-based Embedding](frequency_based_embedding.md).
       + [Prediction-based embedding](prediction_based_embedding.md).
 
 </details>
