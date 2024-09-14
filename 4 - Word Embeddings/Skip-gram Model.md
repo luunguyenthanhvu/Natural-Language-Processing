@@ -4,4 +4,5 @@
 - <b>Cách thức: </b> Cho một từ cụ thể ở giữa câu(input word), nhìn vào những từ ở gần và chọn ngẫu nhiên. Mạng neural sẽ cho chúng ta biết xác suất của mỗi từ trong từ vựng về việc trở thành từ gần đó mà chúng ta chọn.
 
 - Dưới đây là mô hình kiến trúc của mạng Skip-gram và cách xây dựng training data.
-- 
+- ![Ảnh kiến trúc](./kien_truc_mang_skip_gram.png)
+
